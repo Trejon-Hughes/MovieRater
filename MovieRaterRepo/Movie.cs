@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MovieRater
 {
-    class Movie
+    public class Movie
     {
         public string MovieId { get; set; }
         public string Name { get; set; }
