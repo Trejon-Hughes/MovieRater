@@ -9,7 +9,7 @@ namespace MovieRaterRepo
 {
     public class MovieRaterRepo
     {
-        public readonly List<Movie> _movie = new List<Movie>();
+        readonly List<Movie> _movie = new List<Movie>();
         public bool AddMovie(Movie content)
         {
             int startingCount = _movie.Count;

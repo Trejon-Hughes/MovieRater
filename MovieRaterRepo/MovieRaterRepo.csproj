@@ -45,6 +45,7 @@
     <Compile Include="MovieRaterRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TVShow.cs" />
+    <Compile Include="TVShowRepo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
