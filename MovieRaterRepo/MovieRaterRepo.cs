@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MovieRaterRepo
 {
-    public class MovieRaterRepo
+    public class MovieRaterRepository
     {
         readonly List<Movie> _movie = new List<Movie>();
         public bool AddMovie(Movie content)
